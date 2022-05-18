@@ -11,7 +11,7 @@ namespace POO_RPG.Entities.Enums
         Knight,
         Ninja,
         WhiteWizard,
-        BlackeWizard
+        BlackWizard
 
     }
 }

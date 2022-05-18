@@ -6,12 +6,12 @@ namespace POO_RPG.Entities
     {
         public KnightWeapon Weapon { get; set; }
 
-        public Knight(string name, int level, int hP, int mP)
+        public Knight(string name, int level)
         {
             Name = name;
             Level = level;
-            HP = hP;
-            MP = mP;
+            HP = level * 12;
+            MP = level * 3;
             HeroType = HeroType.Knight;
 
         }

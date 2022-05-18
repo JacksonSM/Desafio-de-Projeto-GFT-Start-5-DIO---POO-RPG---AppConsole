@@ -6,19 +6,19 @@ namespace POO_RPG.Entities.Heros
     {
         public WizardMagic Magic { get; set; }
 
-        public WhiteWizard(string name, int level, int hP, int mP)
+        public WhiteWizard(string name, int level)
         {
             Name = name;
             Level = level;
-            HP = hP;
-            MP = mP;
+            HP = level * 7;
+            MP = level * 18;
             HeroType = HeroType.WhiteWizard;
 
         }
 
         public override string Attack()
         {
-            return $"{this.Name} causou um dano de {((int)this.Magic)} com sua {this.Magic}";
+            return $"{this.Name} lançou {this.Magic} que causou {((int)this.Magic)} de dano. ";
         }
     }
 }

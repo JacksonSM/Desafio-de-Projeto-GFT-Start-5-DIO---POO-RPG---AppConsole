@@ -1,4 +1,5 @@
 ﻿using System;
+using POO_RPG.Entities;
 
 namespace POO_RPG
 {
@@ -6,7 +7,8 @@ namespace POO_RPG
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Ninja ninja = new Ninja("Bumbo", 23);
+            
         }
     }
 }
