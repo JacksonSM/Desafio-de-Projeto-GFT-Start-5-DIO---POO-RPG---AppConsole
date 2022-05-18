@@ -8,7 +8,7 @@ namespace POO_RPG.Entities.Enums
 {
     public enum HeroType
     {
-        Arus,
+        Knight,
         Ninja,
         WhiteWizard,
         BlackeWizard
