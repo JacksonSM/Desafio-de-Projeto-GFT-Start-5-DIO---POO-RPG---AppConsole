@@ -10,6 +10,8 @@ namespace POO_RPG.Entities
         public int MP { get; set; }
         public  HeroType HeroType { get; set; }
 
+       
+
         public virtual string Attack()
         {
             return "Ataque";

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO_RPG.Entities.Enums
 {
-    enum NinjaWeapon
+    public enum NinjaWeapon
     {
         NinjaStar = 19,
         Katana = 35

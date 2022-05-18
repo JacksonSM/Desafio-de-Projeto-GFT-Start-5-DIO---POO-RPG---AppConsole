@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO_RPG.Entities.Enums
 {
-    enum WizardMagic
+    public enum WizardMagic
     {
         Rays = 65,
         PlasmaBeam = 76,
