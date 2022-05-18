@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace POO_RPG.Entities.Enums
 {
-    public enum Weapon
+    enum WizardMagic
     {
-        Axe = 25,
-        Sword = 20
+        Rays = 65,
+        PlasmaBeam = 76,
+        FireRay = 81
     }
 }
