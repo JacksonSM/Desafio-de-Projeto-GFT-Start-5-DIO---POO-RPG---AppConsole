@@ -1,6 +1,6 @@
 ﻿using POO_RPG.Entities.Enums;
 
-namespace POO_RPG.Entities
+namespace POO_RPG.Entities.Heros
 {
     public class Ninja : Hero
     {

@@ -1,6 +1,6 @@
 ﻿using POO_RPG.Entities.Enums;
 
-namespace POO_RPG.Entities
+namespace POO_RPG.Entities.Heros
 {
     public class Hero 
     {
@@ -15,6 +15,14 @@ namespace POO_RPG.Entities
         public virtual string Attack()
         {
             return "Ataque";
+        }
+
+        public override string ToString()
+        {
+            return @$"{this.Name} - {this.HeroType}
+   Level {this.Level}
+   HP {this.HP}
+   MP {this.MP}";
         }
     }
 }
