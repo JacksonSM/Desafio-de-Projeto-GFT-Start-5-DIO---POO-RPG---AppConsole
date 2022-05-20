@@ -6,14 +6,14 @@ namespace POO_RPG.Entities.Heros
     {
         public WizardMagic Magic { get; set; }
 
-        public BlackWizard(string name, int level)
+        public BlackWizard(string name, int level, WizardMagic magic)
         {
             Name = name;
             Level = level;
             HP = level * 8;
             MP = level * 19;
             HeroType = HeroType.BlackWizard;
-
+            Magic = magic;
         }
 
         public override string Attack()

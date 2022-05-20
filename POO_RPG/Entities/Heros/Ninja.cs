@@ -6,18 +6,20 @@ namespace POO_RPG.Entities.Heros
     {
         public NinjaWeapon Weapon { get; set; }
 
-        public Ninja(string name, int level)
+        public Ninja(string name, int level, NinjaWeapon weapon)
         {
             Name = name;
             Level = level;
             HP = level * 8;
             MP = level * 3;
             HeroType = HeroType.Ninja;
-            
+            Weapon = weapon;
+
+
         }
         public override string Attack()
         {
-            return $"{this.Name} causou um dano de {((int)this.Weapon)} com sua {this.Weapon}";
+            return $"{this.Name} causou um dano de {((int)this.Weapon)} com sua {this.Weapon}.";
         }
 
     }
